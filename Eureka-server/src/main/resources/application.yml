@@ -1,0 +1,8 @@
+server:
+  port: 8761
+
+#not register the server itself
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
